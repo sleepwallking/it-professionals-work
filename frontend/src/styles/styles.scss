@@ -65,7 +65,14 @@ body {
 					border: 2px solid white;
 				}
 			}
-			
+		}
+		.resume {
+			.card {
+				margin: 5vh;
+				background: #8ebbff;
+				color: $text;
+				padding: 2vh;
+			}
 		}
 		.sign {
 			display: flex;

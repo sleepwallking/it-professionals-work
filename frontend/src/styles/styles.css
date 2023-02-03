@@ -72,6 +72,12 @@ body .layout .home .signlinks .signlink {
   padding-right: calc(20px + 3.1914893617vw);
   border: 2px solid white;
 }
+body .layout .resume .card {
+  margin: 5vh;
+  background: #8ebbff;
+  color: #fdfefc;
+  padding: 2vh;
+}
 body .layout .sign {
   display: flex;
   justify-content: center;
