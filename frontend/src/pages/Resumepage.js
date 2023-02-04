@@ -21,13 +21,13 @@ class Resumepage extends React.Component {
     render() {
         return (
             <div className='resume'>
+                <h1>Резюме</h1>
                 {this.state.details.map((output, id) => (
                     <div key={id} className="card">
-                        <div>
-                            <h2>{output.email}</h2>
-                            <h2>{output.nickname}</h2>
-                            <h2>{output.first_name}</h2>
-                            <h2>{output.last_name}</h2>
+                            <div className='name'>
+                                <h2>{output.first_name}</h2>&nbsp;
+                                <h2>{output.last_name}</h2>
+                            </div>
                             <h2>{output.direction}</h2>
                             <h2>{output.level}</h2>
                             <h2>{output.price}</h2>
@@ -35,7 +35,8 @@ class Resumepage extends React.Component {
                             <h2>{output.skills}</h2>
                             <h2>{output.age}</h2>
                             <h2>{output.location}</h2>
-                        </div>
+                            <h2>{output.nickname}</h2>
+                            <h2>{output.email}</h2>
                     </div>
                 ))}
             </div>

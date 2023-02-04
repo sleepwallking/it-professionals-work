@@ -72,11 +72,23 @@ body .layout .home .signlinks .signlink {
   padding-right: calc(20px + 3.1914893617vw);
   border: 2px solid white;
 }
+body .layout .resume {
+  padding-left: calc(50px + 1.0638297872vw);
+  padding-right: calc(50px + 1.0638297872vw);
+}
+body .layout .resume h1 {
+  font-size: 40px;
+  padding: 2vh;
+}
 body .layout .resume .card {
-  margin: 5vh;
+  border-radius: 30px;
   background: #8ebbff;
   color: #fdfefc;
   padding: 2vh;
+  margin-top: 2vh;
+}
+body .layout .resume .card .name {
+  display: flex;
 }
 body .layout .sign {
   display: flex;

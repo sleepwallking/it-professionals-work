@@ -67,11 +67,18 @@ body {
 			}
 		}
 		.resume {
+			h1 {font-size: 40px;padding: 2vh;}
+			padding-left: calc(50px + 10 * (100vw / 940));
+			padding-right: calc(50px + 10 * (100vw / 940));
 			.card {
-				margin: 5vh;
+				border-radius: 30px;
 				background: #8ebbff;
 				color: $text;
 				padding: 2vh;
+				margin-top: 2vh;
+				.name {
+					display: flex;
+				}
 			}
 		}
 		.sign {
